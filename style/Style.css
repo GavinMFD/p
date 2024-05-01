@@ -1,0 +1,160 @@
+/* Import Font Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Style Untuk Semua Elemen HTML */
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: tomato;
+  color: white;
+  padding: 16px 32px 16px 32px;
+}
+
+.list {
+  display: flex;
+  gap: 32px;
+  font-size: 24px;
+  list-style-type: none;
+}
+
+.list a {
+  color: white;
+  text-decoration: none;
+}
+
+.list a:hover {
+  font-weight: bolder;
+}
+
+.btn-contact {
+  background-color: white;
+  font-size: 16px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 12px;
+  border: 1px solid black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Style Untuk Button Ketika Di-hover */
+.btn-contact:hover {
+  scale: 1.05;
+}
+
+/* Hero Section */
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
+  padding: 8px;
+}
+
+.hero-section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+
+.hero-section .cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  padding: 32px;
+}
+
+.hero-section .cta h1 {
+  font-size: 48px;
+}
+
+.hero-section .cta p {
+  font-size: 20px;
+}
+
+.hero-section .cta button {
+  width: 25%;
+  background-color: tomato;
+  border: none;
+  color: white;
+  border-radius: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.hero-section .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section .hero-img {
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 100%;
+}
+
+/* Section Menu makanan */
+
+.produk-kami {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.produk-kami h1 {
+  font-size: 36px;
+}
+
+.produk-kami p {
+  width: 720px;
+  text-align: center;
+}
+
+.footer {
+  background-color: tomato;
+  color: white;
+}
+
+.footer > div {
+  padding: 32px;
+}
+
+.top-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sosial-media > div {
+  display: flex;
+  gap: 16px;
+}
+
+.sosial-media img {
+  width: 24px;
+  height: 24px;
+}
+
+.bottom-footer {
+  background-color: red;
+}
+
+.bottom-footer h6 {
+  text-align: center;
+}
